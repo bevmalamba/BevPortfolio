@@ -8,5 +8,7 @@ figure{
 }
 .projet{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 250px;
+    margin-right: 35px;
 }
