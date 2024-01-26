@@ -1,0 +1,12 @@
+img{
+    width: 100%;
+    padding: 15px;
+    background: #eee;
+}
+figure{
+    width: 400px;
+}
+.projet{
+    display: flex;
+    justify-content: space-around;
+}

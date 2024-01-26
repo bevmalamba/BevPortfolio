@@ -1,0 +1,29 @@
+#contact{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: end;
+}
+input[type="text"]{
+    width: 200px;
+    padding: 10px;
+    border: 2px solid ;
+
+}
+textarea{
+    width: 200px;
+    padding: 10px;
+    resize: none;
+    border: 2px solid ;
+}
+input[type="button"]{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: rgb(246, 186, 21);
+    border: 1px solid;
+}

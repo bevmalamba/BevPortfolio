@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul .liBorder{
+    border-right: 1px solid black;
+}
+ul li{
+    padding: 0px 20px;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    border-top: 1px solid rgba(218, 211, 211, 0.903);
+}
+#divFooter{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+}
+.title{
+    font-weight: bolder;
+    margin: 1rem 0rem;
+}
+#copyrigth{
+    margin: 1rem 0rem;
+}
+#logoSociaux{
+    display: flex;
+    justify-content: space-between;
+}
+#logoSociaux i{
+    font-size: 1.3rem;
+}
