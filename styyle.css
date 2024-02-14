@@ -1,11 +1,12 @@
 header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
 }
 a {
     text-decoration: none;
     color: black;
+
 }
 ul{
     display: flex;
@@ -14,8 +15,10 @@ ul{
 ul .liBorder{
     border-right: 1px solid black;
 }
+
 ul li{
-    padding: 0px 20px;
+    padding: 2px;
+
 }
 
 
@@ -27,7 +30,7 @@ footer{
     width: 95%;
     border-top: 1px solid rgba(218, 211, 211, 0.903);
 }
-#divFooter{
+.divFooter{
     display: flex;
     width: 98%;
     justify-content: space-between;
@@ -36,13 +39,106 @@ footer{
     font-weight: bolder;
     margin: 1rem 0rem;
 }
-#copyrigth{
+.copyrigth{
     margin: 1rem 0rem;
 }
-#logoSociaux{
+.logoSociaux{
     display: flex;
     justify-content: space-between;
 }
-#logoSociaux i{
+.logoSociaux i{
     font-size: 1.3rem;
 }
+
+
+/*------------------ Responsive Tablette---------------------  */
+
+@media screen and (max-width: 985px) {
+    .divFooter {
+        display: block;
+        text-align: center;
+        font-size: 1.3rem;
+        
+        
+    }
+     .titleE{
+        margin-top: 5%;
+        font-weight: bold;
+     }
+     .titleS{
+        margin-top: 5%;
+        font-weight: bold;
+
+     }
+     .copyrigth{
+        margin-top: 6%;
+        font-size: small;
+     }
+    header{ 
+        font-size: 1.3rem;
+    }
+    .liBorder{
+        text-align: center;
+        font-size: 1rem;
+        padding: 0px 15px;
+     }
+     .liBorderCo{
+        text-align: center;
+        font-size: 1rem;
+        padding: 0px 15px;
+    
+     }
+     
+    
+    
+    .logoSociaux{
+        display: flex;
+        justify-content: center;
+    }
+ }
+ /*--------------Responsive Téléphone-----------------*/
+@media screen and (max-width: 425px){
+
+    .divFooter {
+        display: block;
+        text-align: center;
+        margin-top: 3%;
+    }
+    header{
+        
+        flex-direction: column;
+        text-align: center;
+    
+    }
+     
+    .liBorder{
+        text-align: center;
+        font-size: 1rem;
+        padding: 0px 16px;
+
+     }
+     .liBorderCo{
+        text-align: center;
+        font-size: 1rem;
+        padding: 0px 16px;
+    
+     }
+     .titleE{
+        margin-top: 11%;
+       
+     }
+     .titleS{
+        margin-top: 11%;
+     }
+     .copyrigth{
+        margin-top: 14%;
+     }
+    ul{
+        justify-content: center;
+    }
+    .logoSociaux{
+        display: flex;
+        justify-content: center;
+    }
+    }
+ 
