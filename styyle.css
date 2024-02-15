@@ -51,9 +51,9 @@ footer{
 }
 
 
-/*------------------ Responsive Tablette---------------------  */
+/*------------------ Responsive Tablette footer de toutes les pages---------------------  */
 
-@media screen and (max-width: 985px) {
+@media screen and (min-width: 700px) {
     .divFooter {
         display: block;
         text-align: center;
@@ -61,6 +61,18 @@ footer{
         
         
     }
+    /*------Responsive Tablette page Projets--------*/
+    .tab{
+        display: flex;  
+        margin: 3%;
+        margin-top: 5%;
+      }
+    .tablette{
+        font-size: large;
+        margin-top: 10%;
+    }
+
+    /*--------------Ferme---------------*/
      .titleE{
         margin-top: 5%;
         font-weight: bold;
@@ -71,9 +83,9 @@ footer{
 
      }
      .copyrigth{
-        margin-top: 6%;
         font-size: small;
      }
+     
     header{ 
         font-size: 1.3rem;
     }
@@ -104,10 +116,15 @@ footer{
         text-align: center;
         margin-top: 3%;
     }
-    header{
+    
         
+    header{
+        display: flex;
         flex-direction: column;
         text-align: center;
+        border: solid 1px;
+        align-items: center;
+        justify-content: center;
     
     }
      
@@ -115,6 +132,7 @@ footer{
         text-align: center;
         font-size: 1rem;
         padding: 0px 16px;
+        
 
      }
      .liBorderCo{
@@ -135,6 +153,12 @@ footer{
      }
     ul{
         justify-content: center;
+        text-align: center;
+        border: solid 1px ;
+
+    }
+    li{
+        border: solid 1px;
     }
     .logoSociaux{
         display: flex;

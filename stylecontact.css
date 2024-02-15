@@ -1,4 +1,4 @@
-#contact{
+.contact{
     display: flex;
     justify-content: space-around;
     padding-bottom: 250px;
@@ -28,3 +28,65 @@ input[type="button"]{
     background-color: rgb(246, 186, 21);
     border: 1px solid;
 }
+/*------------------ Responsive Tablette  page CV---------------------  */
+
+@media screen and (min-width: 700px) {
+    input[type="button"]{
+        width: 130px;
+        height: 130px;
+        margin-bottom: 10%;
+    }
+    textarea{
+        width: 317px;
+        padding: 0px;
+        border: 1px solid ;
+        margin-top: 3%;
+        margin-bottom: 7%;
+    }
+    input[type="text"]{
+        width: 300px;
+        padding: 10px;
+        border: 1px solid ;
+        margin-top: 3%;
+        margin-bottom: 7%;
+    
+    }
+    
+}
+ /*------------------ Responsive Téléphone page contact---------------------  */
+
+ @media screen and (max-width: 425px){
+    .contact{
+        display: block;
+       text-align: center;
+    }
+    form{
+        display: block;
+        text-align: left;
+        
+    }
+    input[type="text"]{
+        width: 95%;
+        padding: 10px;
+        border: 1px solid ;
+        margin-top: 3%;
+        margin-bottom: 7%;
+        
+    }
+    input[type="button"]{
+        width: 150px;
+        height: 150px;
+       
+    }
+    textarea{
+        width: 99%;
+        padding: 0px;
+        border: 1px solid ;
+        margin-top: 3%;
+        margin-bottom: 7%;
+    }
+    .button{
+        display: block;
+        text-align: center;
+    }
+ }

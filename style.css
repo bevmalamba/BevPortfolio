@@ -43,11 +43,11 @@ h2{
     background-color: #80d8da;
 }
 
-/*------------------ Responsive Tablette---------------------  */
+/*------------------ Responsive Tablette 1ère page---------------------  */
 
-@media screen and (max-width: 985px) {
+@media screen and (min-width: 700px) {
   main{
-  flex-direction: column;
+  flex-direction: column ;
   margin-bottom: 7rem;
   }
   .Apropos{
@@ -74,7 +74,7 @@ h2{
  margin-left: 3%;
 }
   }
-  /*------------------ Responsive Téléphone---------------------  */
+  /*------------------ Responsive Téléphone 1ère page---------------------  */
 
 @media screen and (max-width: 425px) {
   main{
