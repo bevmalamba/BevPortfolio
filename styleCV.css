@@ -1,5 +1,32 @@
 .container{
-    display: flex;
-    justify-content: space-between;
+    display: block;
     align-items: center;
+    
+}
+.cv__container{
+  display: flex;
+    justify-content: space-between;
+  
+}
+
+.cv__container--border-top{
+    border-top: 1px solid rgba(146, 144, 144, 0.903);
+      
+}
+
+
+
+/*------------------ Responsive Tablette page CV---------------------  */
+
+@media screen and (min-width: 700px) {
+    
+}
+/*--------------Responsive Téléphone-----------------*/
+@media screen and (max-width: 425px){
+    .cv__container{
+       text-align: left;
+       p{
+        font-size: small;
+       }
+    }
 }

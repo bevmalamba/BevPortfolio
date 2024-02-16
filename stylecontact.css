@@ -28,13 +28,13 @@ input[type="button"]{
     background-color: rgb(246, 186, 21);
     border: 1px solid;
 }
-/*------------------ Responsive Tablette  page CV---------------------  */
+/*------------------ Responsive Tablette  page Contact---------------------  */
 
 @media screen and (min-width: 700px) {
     input[type="button"]{
-        width: 130px;
-        height: 130px;
-        margin-bottom: 10%;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 6%;
     }
     textarea{
         width: 317px;
@@ -45,13 +45,15 @@ input[type="button"]{
     }
     input[type="text"]{
         width: 300px;
-        padding: 10px;
+       
         border: 1px solid ;
         margin-top: 3%;
         margin-bottom: 7%;
     
     }
-    
+    .contact{
+        flex-direction: column;
+    }
 }
  /*------------------ Responsive Téléphone page contact---------------------  */
 

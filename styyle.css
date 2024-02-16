@@ -8,7 +8,7 @@ a {
     color: black;
 
 }
-ul{
+.Bems{
     display: flex;
     list-style: none;
 }
@@ -28,7 +28,7 @@ footer{
     display: flex;
     justify-content: center;
     width: 95%;
-    border-top: 1px solid rgba(218, 211, 211, 0.903);
+    border-top: 1px solid rgba(132, 130, 130, 0.903);
 }
 .divFooter{
     display: flex;
@@ -122,7 +122,6 @@ footer{
         display: flex;
         flex-direction: column;
         text-align: center;
-        border: solid 1px;
         align-items: center;
         justify-content: center;
     
@@ -151,15 +150,13 @@ footer{
      .copyrigth{
         margin-top: 14%;
      }
-    ul{
+    .Bems{
         justify-content: center;
         text-align: center;
-        border: solid 1px ;
+        
 
     }
-    li{
-        border: solid 1px;
-    }
+    
     .logoSociaux{
         display: flex;
         justify-content: center;
