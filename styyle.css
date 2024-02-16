@@ -162,4 +162,18 @@ footer{
         justify-content: center;
     }
     }
- 
+    /*------------------ Responsive ordinateur footer de toutes les pages---------------------  */
+
+@media screen and (min-width: 700px) {
+    
+    /*------Responsive Tablette page Projets--------*/
+    .tab{
+        display: flex;  
+        margin: 3%;
+        margin-top: 5%;
+      }
+    .tablette{
+        font-size: large;
+        margin-top: 10%;
+    }
+ }

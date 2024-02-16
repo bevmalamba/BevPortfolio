@@ -30,3 +30,10 @@
        }
     }
 }
+ /*------------------ Responsive ordinateur  page Cv---------------------  */
+
+ @media screen and (max-width: 1280px){
+    body{
+        margin-left: 20%;
+    }
+ }

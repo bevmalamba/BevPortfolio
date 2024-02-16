@@ -36,6 +36,7 @@ input[type="button"]{
         height: 150px;
         margin-bottom: 6%;
     }
+   
     textarea{
         width: 317px;
         padding: 0px;
@@ -90,5 +91,14 @@ input[type="button"]{
     .button{
         display: block;
         text-align: center;
+    }
+ }
+ /*------------------ Responsive ordinateur  page Cv---------------------  */
+
+ @media screen and (max-width: 1280px){
+    
+    .contact{
+        flex-direction: row;
+        gap: 30%;
     }
  }
